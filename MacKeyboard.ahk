@@ -86,8 +86,22 @@ F12::SendInput {Volume_Up}
 #q::Send !{F4}
 
 ; Remap Windows + Tab to Alt + Tab.
-Lwin & Tab::AltTab
+LWin & Tab:: 
+    AltTabMenu := true
+    If GetKeyState("Shift","P")
+        Send {Alt Down}{Shift Down}{Tab}
+    else
+        Send {Alt Down}{Tab}
+return
 
+#If (AltTabMenu)
+
+    ~*LWin Up::
+        Send {Shift Up}{Alt Up}
+        AltTabMenu := false 
+    return
+
+#If
 ; minimize windows
 #m::WinMinimize,a
 
