@@ -74,7 +74,7 @@ F12::SendInput {Volume_Up}
 #z::Send ^z
 
 ; Redo
-#y::Send ^y
+#+z::Send ^y
 
 ; New tab
 #t::Send ^t
