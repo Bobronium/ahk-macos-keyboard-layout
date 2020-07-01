@@ -40,6 +40,11 @@ F10::SendInput {Volume_Mute}
 F11::SendInput {Volume_Down}
 F12::SendInput {Volume_Up}
 
+; --------------------------------------------------------------
+; Clipboard History Win + Shift + V
+; --------------------------------------------------------------
+#+v::Send #v
+
 ; swap left command/windows key with left alt
 ;LWin::LAlt
 ;LAlt::LWin ; add a semicolon in front of this line if you want to disable the windows key
