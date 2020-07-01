@@ -119,11 +119,11 @@ return
 
 ; zoom in
 #=::Send ^{=}
-#WheelUp::Send ^{=}
+#WheelUp::Send ^{WheelUp}
 
 ;zoom out
 #-::Send ^{-}
-#WheelDown::Send ^{-}
+#WheelDown::Send ^{WheelDown}
 
 
 ; --------------------------------------------------------------
