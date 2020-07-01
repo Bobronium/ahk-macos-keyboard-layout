@@ -28,12 +28,14 @@ SendMode Input
 #+4::#+s
 
 ; --------------------------------------------------------------
-; media/function keys all mapped to the right option key
+; media/function keys all mapped F keys
 ; --------------------------------------------------------------
 
-RAlt & F7::SendInput {Media_Prev}
-RAlt & F8::SendInput {Media_Play_Pause}
-RAlt & F9::SendInput {Media_Next}
+F3::Send #{Tab}
+F4::Send #a  ; Open Action center
+F7::SendInput {Media_Prev}
+F8::SendInput {Media_Play_Pause}
+F9::SendInput {Media_Next}
 F10::SendInput {Volume_Mute}
 F11::SendInput {Volume_Down}
 F12::SendInput {Volume_Up}
