@@ -82,6 +82,12 @@ F12::SendInput {Volume_Up}
 ; close tab
 #w::Send ^w
 
+; New window or file: Win + N
+#n::Send ^n
+
+; New window or file Win + Shift + N
+#+n::Send ^+n
+
 ; Close windows (cmd + q to Alt + F4)
 #q::Send !{F4}
 
