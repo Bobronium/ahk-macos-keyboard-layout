@@ -147,6 +147,28 @@ return
 ; Move cursor to one word down while selecting
 #+Down::Send ^+{Down}
 
+; --------------------------------------------------------------
+; CMD + Mouse shortcuts
+; --------------------------------------------------------------
+
+; Open in a new tab or window
+; FIXME: doesn't work with double click
+#LButton::
+Send {Ctrl down}
+Click
+Send {Ctrl up}
+return
+
+; Open in a new tab and make it active 
+; FIXME: doesn't work with double click
+#+LButton::
+Send {Ctrl down}
+Send {Shift down}
+Click
+Send {Ctrl up}
+Send {Shift up}
+return
+
 
 ; --------------------------------------------------------------
 ; Application specific
