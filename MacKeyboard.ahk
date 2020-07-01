@@ -45,29 +45,6 @@ F12::SendInput {Volume_Up}
 ; --------------------------------------------------------------
 #+v::Send #v
 
-; swap left command/windows key with left alt
-;LWin::LAlt
-;LAlt::LWin ; add a semicolon in front of this line if you want to disable the windows key
-
-; Remap Windows + Left OR Right to enable previous or next web page
-; Use only if swapping left command/windows key with left alt
-;Lwin & Left::Send, !{Left}
-;Lwin & Right::Send, !{Right}
-
-; Eject Key
-;F20::SendInput {Insert} ; F20 doesn't show up on AHK anymore, see #3
-
-; F13-15, standard windows mapping
-F13::SendInput {PrintScreen}
-F14::SendInput {ScrollLock}
-F15::SendInput {Pause}
-
-;F16-19 custom app launchers, see http://www.autohotkey.com/docs/Tutorial.htm for usage info
-F16::Run http://twitter.com
-F17::Run http://tumblr.com
-F18::Run http://www.reddit.com
-F19::Run https://facebook.com
-
 ; --------------------------------------------------------------
 ; OS X system shortcuts
 ; --------------------------------------------------------------
@@ -171,18 +148,6 @@ Lwin & Tab::AltTab
 
 ; Map Alt + 3 to #
 !3::SendInput {#}
-
-
-
-; --------------------------------------------------------------
-; Custom mappings for special chars
-; --------------------------------------------------------------
-
-;#ö::SendInput {[} 
-;#ä::SendInput {]} 
-
-;^ö::SendInput {{} 
-;^ä::SendInput {}} 
 
 
 ; --------------------------------------------------------------
