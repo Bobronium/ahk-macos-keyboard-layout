@@ -12,6 +12,7 @@
 ;
 ; Debug action snippet: MsgBox You pressed Control-A while Notepad is active.
 
+#NoEnv
 #InstallKeybdHook
 #SingleInstance force
 SetTitleMatchMode 2
