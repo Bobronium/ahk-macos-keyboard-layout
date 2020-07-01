@@ -112,11 +112,19 @@ return
 ; minimize windows
 #m::WinMinimize,a
 
-	; zoom in
+; Ctrl + scroll to global zoom in
+; FIXME: doesn't work properly
+;^WheelUp::Send #{=}  ; This works
+;^WheelDown::Send #-  ; This doesn't work and triggers instead ^{-}
+
+; zoom in
 #=::Send ^{=}
+#WheelUp::Send ^{=}
 
 ;zoom out
-#-::Send ^-
+#-::Send ^{-}
+#WheelDown::Send ^{-}
+
 
 ; --------------------------------------------------------------
 ; Cursor arrows shortcuts (replace window positioning shortcuts)
@@ -191,4 +199,3 @@ return
 #r:: Send ^r
 
 #IfWinActive
-
