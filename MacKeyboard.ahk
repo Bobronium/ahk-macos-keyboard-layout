@@ -97,6 +97,36 @@ Lwin & Tab::AltTab
 ;zoom out
 #-::Send ^-
 
+; --------------------------------------------------------------
+; Cursor arrows shortcuts (replace window positioning shortcuts)
+; --------------------------------------------------------------
+; Delete whole word
+#Backspace::Send ^{Backspace}
+
+; Move cursor to one word left
+#Left::Send ^{Left}
+
+; Move cursor to one word right
+#Right::Send ^{Right}
+
+; Move cursor to one word up
+#Up::Send ^{Up}
+
+; Move cursor to one word down
+#Down::Send ^{Down}
+
+; Move cursor to one word left while selecting
+#+Left::Send ^+{Left}
+
+; Move cursor to one word right while selecting
+#+Right::Send ^+{Right}
+
+; Move cursor to one word up while selecting
+#+Up::Send ^+{Up}
+
+; Move cursor to one word down while selecting
+#+Down::Send ^+{Down}
+
 
 ; --------------------------------------------------------------
 ; Application specific
