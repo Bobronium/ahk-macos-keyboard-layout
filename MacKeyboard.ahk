@@ -107,6 +107,11 @@ Lwin & Tab::AltTab
 ; minimize windows
 #m::WinMinimize,a
 
+	; zoom in
+#=::Send ^{=}
+
+;zoom out
+#-::Send ^-
 
 ; --------------------------------------------------------------
 ; OS X keyboard mappings for special chars
