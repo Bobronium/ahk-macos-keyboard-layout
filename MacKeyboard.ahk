@@ -161,5 +161,11 @@ return
 ; Show source code with cmd + alt + u
 #!u::Send ^u
 
+; Reopen Closed Tab: Win + Shift + T
+#+t::Send ^+t
+
+; Reload current tab Win + R
+#r:: Send ^r
+
 #IfWinActive
 
