@@ -94,9 +94,9 @@ F12::SendInput {Volume_Up}
 
 ; Remap Windows + Tab to Alt + Tab.
 #Tab::Send, {LAlt Down}{Tab}
-#If WinExist("ahk_class MultitaskingViewFrame")
+#If GetKeyState("LWin","P")
 LWin Up::Send, {LAlt Up}
-LWin Up::Send, {LAlt Up}
+RWin Up::Send, {LAlt Up}
 #If
 
 ; minimize windows
