@@ -89,8 +89,11 @@ F12::SendInput {Volume_Up}
 ; New window or file Win + Shift + N
 #+n::Send ^+n
 
-; Close windows (cmd + q to Alt + F4)
-#q::Send !{F4}
+; Exit current app (cmd + q)
+#q::
+WinGet, active_id, PID, A
+run, taskkill /PID %active_id% /F,,Hide
+return
 
 ; Remap Windows + Tab to Alt + Tab.
 #Tab::Send, {LAlt Down}{Tab}
