@@ -11,5 +11,7 @@ Installation
 - Install [AutoHotkey](https://www.autohotkey.com/) 
 - Run the `macOSKeyboardLayout.ahk` and `MagicKeyboardFnKeys.ahk` files
 
-# Autostart
+
+Autostart
+------------
 - To start scripts automatically, compile them and put in `C:\ProgramData\Microsoft\Windows\Start Menu\Programs\StartUp`.
