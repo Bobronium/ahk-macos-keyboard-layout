@@ -20,9 +20,9 @@ SendMode Input
 
 
 ; --------------------------------------------------------------
-; TODO: allow to detect whether actual Ctrl was pressed, or CMD key
+; Pressing LWin will also trigger RCtrl
 ; --------------------------------------------------------------
-LWin::Ctrl
+LWin::RCtrl
 
 ; --------------------------------------------------------------
 ; CMD + Tab
@@ -37,9 +37,8 @@ return
 
 #If (AltTabMenu)
     ~*LWin Up::
-        Send {Shift Up}{Alt Up}
+        Send {Shift Up}{Alt Up}{RCtrl  Up}
         AltTabMenu := false
-	Send {Ctrl Up} 
     return
 #If
 
