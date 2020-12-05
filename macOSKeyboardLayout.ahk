@@ -1,4 +1,4 @@
-﻿;-----------------------------------------
+;-----------------------------------------
 ; Mac keyboard to Windows Key Mappings
 ;=========================================
 
@@ -37,7 +37,7 @@ return
 
 #If (AltTabMenu)
     ~*LWin Up::
-        Send {Shift Up}{Alt Up}{RCtrl  Up}
+        Send {Shift Up}{Alt Up}{RCtrl Up}
         AltTabMenu := false
     return
 #If
@@ -47,8 +47,13 @@ return
 ; Exit current app (cmd + q)
 ; --------------------------------------------------------------
 ^q::
+;TODO: add var or config with processes to ignore
+WinGet, process_name,ProcessName,A
+if process_name not in RainbowSix.exe, explorer.exe
+{
 WinGet, active_id, PID, A
 run, taskkill /PID %active_id% /F,,Hide
+}
 return
 
 
@@ -67,12 +72,6 @@ return
 ; Space + CMD to change the language
 ; --------------------------------------------------------------
 ^Space::SendInput #{Space}
-
-
-; --------------------------------------------------------------
-; Space + CMD to change the language
-; --------------------------------------------------------------
-+Space::SendInput #{Space}
 
 
 ; --------------------------------------------------------------
