@@ -23,4 +23,4 @@ However, if the feature is out of the scope, but you still feel that it's releva
 # See also
 - [kinto](https://github.com/rbreaves/kinto) - Mac-style shortcut keys for Linux & Windows.
   
-  While I'm trying to keep this repo as a small as possible, adding only the shortcuts that I personaly crave on Windows, this seems like a all-around-solition to people who constantly work on macOS/Windows/Linux. Never had a chance to used it, but definitely gonna give it a try.
+  While I'm trying to keep this repo as a small as possible, only adding shortcuts that I personaly crave on Windows, kinto seems to be an all-around-solition for people who constantly work on macOS/Windows/Linux. Never had a chance to used it, but definitely gonna give it a try.
