@@ -24,3 +24,13 @@ However, if the feature is out of the scope, but you still feel that it's releva
 - [kinto](https://github.com/rbreaves/kinto) - Mac-style shortcut keys for Linux & Windows.
   
   While I'm trying to keep this repo as a small as possible, only adding shortcuts that I personaly crave on Windows, kinto seems to be an all-around-solition for people who constantly work on macOS/Windows/Linux. Never had a chance to used it, but definitely gonna give it a try.
+
+- [mac-precision-touchpad](https://github.com/imbushuo/mac-precision-touchpad) - Windows Precision Touchpad Implementation for Apple MacBook family/Magic Trackpad 2
+
+- [PowerToys](https://github.com/microsoft/PowerToys) - Microsoft PowerToys is a set of utilities for power users to tune and streamline their Windows experience for greater productivity.
+  
+  I used it for it's Spotlight clone on windows and probably something else :)
+
+- [macOS-cursors-for-Windows](https://github.com/antiden/macOS-cursors-for-Windows)
+
+- [QuickLook](https://github.com/QL-Win/QuickLook) — allows to preview the files in macOS manner
