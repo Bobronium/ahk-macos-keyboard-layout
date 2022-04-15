@@ -21,4 +21,6 @@ Feel free to create PRs new features or improvements! Just keep in mind that the
 However, if the feature is out of the scope, but you still feel that it's relevant and could improve ones experience, please concider making a PR adding it to the [list below](https://github.com/Bobronium/ahk-macos-keyboard-layout#see-also)
 
 # See also
-Nothing to see here yet. Be the first one to add something.
+- [kinto](https://github.com/rbreaves/kinto) - Mac-style shortcut keys for Linux & Windows.
+  
+  While I'm trying to keep this repo as a small as possible, adding only the shortcuts that I personaly crave on Windows, this seems like a all-around-solition to people who constantly work on macOS/Windows/Linux. Never had a chance to used it, but definitely gonna give it a try.
