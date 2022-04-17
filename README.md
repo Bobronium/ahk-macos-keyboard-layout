@@ -33,7 +33,7 @@ If it doesnt work for applications running with admin permissions, run scripts a
 
 
 # Under the hood
-I decided to go with a simplest approach. Instead of remapping every single key manually, I did the following: 
+I decided to go with the simplest approach. Instead of remapping every single key manually, I did the following: 
 1. Remap `Left CMD/Win` key to `Right Ctrl` key.
 2. Bind additional shortcuts (like `CMD/Win` + `Tab`) to `Right Ctrl`
 
