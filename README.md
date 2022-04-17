@@ -5,6 +5,22 @@ These scripts are intended to work with Apple keyboards, but nothing should hold
 
 #### This project is a part of [bearable-bootcamp-experience](https://github.com/Bobronium/bearable-bootcamp-experience).
 
+# Features
+- `CMD/Win` + `Tab` - swithc between windows
+- `CMD/Win` + `Q` - quit active application
+- `CMD/Win` + `Shift` + `3` - capture entire screen
+- `CMD/Win` + `Shift` + `3` - capture screen portion
+- `CMD/Win` + `Space` - change the language (**note:** this is deifferent from default macOS behaviour, but I prefer it this way)
+- Other than that, `CMD/Win` key is acting exactly like `Ctrl` key would, allowing for
+  - `CMD/Win` + `C` to copy
+  - `CMD/Win` + `V` to paste
+  - `CMD/Win` + `Arrows`
+  - and so on...
+
+## Missing features
+- It seems to be impossible to replecate `CMD/Win` + `Backspace` behaviour from macOS without terribly breaking something else.
+
+
 # Installation
 - Install [AutoHotkey](https://www.autohotkey.com/) 
 - Run the `macOSKeyboardLayout.ahk` and `MagicKeyboardFnKeys.ahk` files
@@ -15,6 +31,14 @@ To start scripts automatically, compile them and put in `C:\ProgramData\Microsof
 ## Troubleshooting
 If it doesnt work for applications running with admin permissions, run scripts as admin or set AHK to run with admin privileges ([from StackOverflow](https://stackoverflow.com/a/8457852/723769)). 
 
+
+# Under the hood
+I decided to go with a simplest approach. Instead of remapping every single key manually, I did the following: 
+1. Remap `Left CMD/Win` key to `Right Ctrl` key.
+2. Bind additional shortcuts (like `CMD/Win` + `Tab`) to `Right Ctrl`
+
+This way actual `Left Ctrl` combinations are remaining intact, and since there's no `Right Ctrl` key on Apple keyboards, nothing is lost.
+`Right CMD/Win` key is also remaining intact.
 
 # Contribution
 Feel free to create PRs new features or improvements! Just keep in mind that the features should mirror existing functionality from macOS. 
