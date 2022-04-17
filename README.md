@@ -3,6 +3,7 @@ These [AutoHotkey](https://www.autohotkey.com/) scripts bring macOS keyboard lay
 
 These scripts are intended to work with Apple keyboards, but nothing should hold you back from using it with any other keyboard, if that's what you want.
 
+#### This project is a part of [bearable-bootcamp-experience](https://github.com/Bobronium/bearable-bootcamp-experience).
 
 # Installation
 - Install [AutoHotkey](https://www.autohotkey.com/) 
