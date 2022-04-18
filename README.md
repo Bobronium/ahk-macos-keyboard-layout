@@ -19,7 +19,12 @@ These scripts are intended to work with Apple keyboards, but nothing should hold
 
 ## Missing features
 - It seems to be impossible to replecate `CMD/Win` + `Backspace` behaviour from macOS without terribly breaking something else.
-
+- `CMD` + `` ` `` to switch between windows of the current app.
+   
+   Coed can be stolen from [here](https://github.com/JuanmaMenendez/AutoHotkey-script-Open-Show-Apps/blob/master/AutoHotkey-script-Switch-Windows-same-App.ahk), however it needs to be improven:
+   1. Switch should occur only between active windows to replecate macOS behaviour
+   2. `CMD` + `Shift` + `` ` `` should be supported
+   
 
 # Installation
 - Install [AutoHotkey](https://www.autohotkey.com/) 
